@@ -2077,4 +2077,4 @@ const channel = sWlc[message.guild.id].channel
 
 
 //MHSTR END NOW THIS IS END
-client.login(process.env.BOT_TOKEN);
+client.login(NTQ0MTk1MzkyMTY2OTUyOTYx.D0Hk_A.zjijKXhFBVUdvxHDfKkK1j0RX38);
