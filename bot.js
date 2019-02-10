@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const devs = ['318923640265637901'];
-var prefix = "v";
-const adminprefix = "v"
+var prefix = "!";
+const adminprefix = "!"
 const db = require('quick.db');
 const client = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -35,7 +35,7 @@ const sql = require("sqlite");
 
 
   client.on('message' , async message => {
-	  var prefix = "v";
+	  var prefix = "!";
          if(message.content.startsWith(prefix + "emoji")) {
             let args = message.content.split(" ").slice(1);
     if (args.length < 1) {
@@ -2056,7 +2056,7 @@ client.on("message", (message) => {
 const sWlc = {}
 const premium = ['318923640265637901']
 client.on('message', message => {
-var prefix = "v";
+var prefix = "!";
 if(message.channel.type === "dm") return;
 if(message.author.bot) return;
   if(!sWlc[message.guild.id]) sWlc[message.guild.id] = {
